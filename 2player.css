@@ -1,0 +1,64 @@
+body {
+    background-image: linear-gradient(to right, green, yellow);
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Major Mono Display', monospace;
+}
+
+.player1 {
+
+}
+
+.player2 {
+
+}
+
+.controls {
+
+}
+
+.player1, .player2, .controls {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 10px white;
+    border-radius: 50%;
+    width: 420px;
+    height: 420px;
+    margin: auto 10px;
+
+}
+
+img {
+    width: 40%;
+    height: 40%;
+    display: none;
+}
+
+button {
+    font-family: 'Major Mono Display', monospace;
+    font-size: 28px;
+    text-align: center;
+    background-color: whitesmoke;
+    border: 0px;
+    width: 120px;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    border: 0px;
+}
+
+button:active {
+    background-color: #833AB4;
+    border: 0px;
+}
+
+button:focus {outline:0;}

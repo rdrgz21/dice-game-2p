@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./2player.css">
+    <title>Dice Game - 2 Player</title>
+</head>
+<body>
+    <div class="player1">
+        <h1 id="p1Message">Player 1</h1>
+        <h2 id="held1">0</h2>
+        <h3>Current: <span id="current1">0</span></h3>
+    </div>
+
+    <div class="controls">
+        <button id="newGame">New Game</button>
+        <p>Press 'roll' to start<br>Player 1 goes first</p>
+        <img id="image" src="./img/dice1.png" alt="Die">
+        <button id="rollButton">roll</button>
+        <button id="holdButton">hold</button>
+    </div>
+
+    <div class="player2">
+        <h1 id="p2Message">Player 2</h1>
+        <h2 id="held2">0</h2>
+        <h3>Current: <span id="current2">0</span></h3>
+    </div>
+    <script src="./2player.js"></script>
+</body>
+</html>
